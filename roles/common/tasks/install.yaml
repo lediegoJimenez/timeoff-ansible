@@ -1,0 +1,8 @@
+---
+
+- name: install the latest version of Apache
+  yum: name={{item}} state=latest
+  loop:
+    - gcc-c++ 
+    - make
+  become: yes

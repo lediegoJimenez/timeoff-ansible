@@ -1,0 +1,14 @@
+---
+
+- name: Include Role - common
+  include_role: 
+    name: common
+
+- name: Include Role - nodejs
+  include_role: 
+    name: nodejs
+
+- name: Include Role - sqlite
+  include_role: 
+    name: sqlite
+

@@ -1,0 +1,10 @@
+---
+
+- name: Download Nodejs Installer
+  command: cd /tmp/ && sudo curl -sL "{{ nodejs_url }}" | sudo -E bash -
+
+- name: Install Nodejs 
+  yum:
+    name: nodejs
+    state: latest
+  become: yes
