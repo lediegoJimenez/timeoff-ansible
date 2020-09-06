@@ -1,7 +1,8 @@
 ---
 
 - name: Download Nodejs Installer
-  command: sudo cd /tmp/ && sudo curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+  command: sudo cd /home/timeoff && sudo curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+  become: yes
 
 - name: Install Nodejs 
   yum:
