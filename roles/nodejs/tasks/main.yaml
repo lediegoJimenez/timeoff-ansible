@@ -1,7 +1,7 @@
 ---
 
 - name: Download Nodejs Installer
-  command: cd /tmp/ && sudo curl -sL "{{ nodejs_url }}" | sudo -E bash -
+  command: sudo cd /tmp/ && sudo curl -sL "{{ nodejs_url }}" | sudo -E bash -
 
 - name: Install Nodejs 
   yum:
