@@ -1,7 +1,6 @@
 ---
 
 - hosts: timeoff
-  become: yes
   roles:
     - timeoff
   tags:
