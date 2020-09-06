@@ -3,12 +3,15 @@
 - name: Include Role - common
   include_role: 
     name: common
+  become: yes
 
 - name: Include Role - nodejs
   include_role: 
     name: nodejs
+  become: yes
 
 - name: Include Role - sqlite
   include_role: 
     name: sqlite
+  become: yes
 

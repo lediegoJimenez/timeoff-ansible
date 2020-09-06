@@ -4,3 +4,4 @@
   yum: 
     name: sqlite 
     state: latest
+  become: yes
