@@ -1,6 +1,6 @@
 ---
 
-url_repo: http://192.168.1.144:8081/repository/timeoff-raw/org/gorilla/1.11/timeoff-managment-1.11.zip
+url_repo: http://192.168.1.144:8081/repository/timeoff-raw/org/gorilla/1.11/timeoff-management-1.11.zip
 dest_folder: /home/timeoff
 nexus_user: admin
 nexus_pass: nexus123
