@@ -7,5 +7,6 @@
       - make
       - zip
       - unzip
+      - wget
     state: latest
   become: yes
