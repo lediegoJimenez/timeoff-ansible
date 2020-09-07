@@ -19,9 +19,4 @@
     username: "{{ nexus_user }}"
     password: "{{ nexus_pass }}"
     timeout: 36000
-  when:
-    - url_repo is defined
-    - dest_folder is defined
-    - nexus_user is defined
-    - nexus_pass is defined
   become: yes
