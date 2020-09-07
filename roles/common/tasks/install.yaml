@@ -1,9 +1,11 @@
 ---
 
-- name: install the latest version of Apache
-  yum: name={{item}} state=latest
-  loop:
-    - gcc-c++ 
-    - make
-    - zip
+- name: Install a list of packages
+  yum:
+    name:
+      - gcc-c++ 
+      - make
+      - zip
+      - unzip
+    state: latest
   become: yes
