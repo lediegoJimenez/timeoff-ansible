@@ -15,7 +15,7 @@
 - name: Download Nexus Artifact
   get_url: 
     url: "{{ url_repo }}"
-    dest: "{{ dest_folder }}"
+    dest: /home/timeoff
     username: "{{ nexus_user }}"
     password: "{{ nexus_pass }}"
     timeout: 36000
