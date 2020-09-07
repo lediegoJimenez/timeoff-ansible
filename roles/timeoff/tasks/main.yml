@@ -25,5 +25,3 @@
     - nexus_user is defined
     - nexus_pass is defined
   become: yes
-
-

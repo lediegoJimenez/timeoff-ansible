@@ -1,5 +1,7 @@
 ---
 
 dest_folder: /home/timeoff
-nexus_user: "{{ vault_nexus_user }}"
-nexus_pass: "{{ vault_nexus_pass }}"
+nexus_user: admin
+nexus_pass: nexus123
+#nexus_user: "{{ vault_nexus_user }}"
+#nexus_pass: "{{ vault_nexus_pass }}"
