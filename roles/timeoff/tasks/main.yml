@@ -16,7 +16,7 @@
   get_url: 
     url: "{{ url_repo }}"
     dest: /home/timeoff
-    username: "{{ nexus_user }}"
-    password: "{{ nexus_pass }}"
+    username: admin
+    password: nexus123
     timeout: 36000
   become: yes
